@@ -16,20 +16,20 @@ elif mood=="bad":
 else:
     print("I see, sometimes its hard to put feelings into words")
 
-print(f"It was nice chatting with you {name}. bye")
+
 
 print("What is your hobby?")
 hobby = input().lower()
-print("{hobby} sounds like a lot of fun!")
+print(f"{hobby} sounds like a lot of fun!")
 
 print("What is your favourite food?")
 food = input().lower()
-print("{food} sounds delicious!")
+print(f"{food} sounds delicious!")
 
 print("Do you want to continue chatting? (yes/no)")
 if input().lower() == "yes":
     print("Great! Let's keep chatting.")
 
 else:
-    print("It was nice chatting with you. Goodbye!")
+    print(f"It was nice chatting with you {name}. bye")
 
